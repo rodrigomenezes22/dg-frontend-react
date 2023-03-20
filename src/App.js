@@ -13,7 +13,7 @@ const [currentBook, setCurrentBook ] = useState({})
 
 
 useEffect(() => {
-  fetch("http://localhost:3000/js/books.json")
+  fetch("https://sprightly-figolla-2d4a80.netlify.app/js/books.json")
   .then((response) => {
    return response.json();
   })
